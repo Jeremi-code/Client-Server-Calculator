@@ -18,6 +18,9 @@ io.on("connection", (socket) => {
 function addNumbers(a, b) {
   return a + b;
 }
+function subtractNumbers(a, b) {
+  return a - b;
+}
 
 server.listen(port, () =>
   console.log(`Example app listening on port ${port}!`)
