@@ -28,6 +28,7 @@ function sendMessage(){
         if(numArray.length !== 2 || isNaN(numArray[0]) || isNaN(numArray[1])){
             console.log('Invalid input')
             readline.close()
+            sendMessage()
             return
         }
         const a = parseInt(numArray[0])
